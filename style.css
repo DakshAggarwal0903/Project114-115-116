@@ -1,0 +1,20 @@
+h3{
+    font-size: 25px !important;
+    
+}
+.btn-success:hover{
+    background-color: goldenrod;
+}
+canvas{
+    animation-name: Anim1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes Anim1{
+    from{
+        box-shadow: 1px 1px 38px cyan;
+    }
+    to{
+        box-shadow: 1px 1px 38px lawngreen;
+    }
+}
